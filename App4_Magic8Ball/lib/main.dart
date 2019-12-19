@@ -23,7 +23,10 @@ class _BallPageState extends State<BallPage> {
       ),
       backgroundColor: Colors.blue,
       body: Center(
-        child: FlatButton(child: Image.asset('images/ball$prediction.png'), onPressed: generateNumber,),
+        child: FlatButton(
+          child: Image.asset('images/ball$prediction.png'),
+          onPressed: generateNumber,
+        ),
       ),
     );
   }
