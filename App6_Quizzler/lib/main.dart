@@ -82,7 +82,7 @@ class _QuizPageState extends State<QuizPage> {
                     color: Colors.white,
                   ),
                 ),
-                onPressed: () => () => setState(() {
+                   onPressed: () => setState(() {
                       _checkAnswer(false);
                     })),
           ),
