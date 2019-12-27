@@ -11,7 +11,7 @@ class ComponentCard extends StatelessWidget {
       onTap: onTap,
       child: Container(
         child: child,
-        margin: EdgeInsets.all(15),
+        margin: const  EdgeInsets.all(15),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10), color: backgroundColor),
       ),

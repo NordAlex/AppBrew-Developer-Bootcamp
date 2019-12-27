@@ -12,7 +12,7 @@ class BottomButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        padding: EdgeInsets.only(bottom: 20.0),
+        padding: const EdgeInsets.only(bottom: 20.0),
         width: double.infinity,
         height: kBottomMenuHeight,
         color: kBottomMenuColor,

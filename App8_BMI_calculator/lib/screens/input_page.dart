@@ -95,10 +95,10 @@ class _InputPageState extends State<InputPage> {
                       ),
                       SliderTheme(
                           data: SliderTheme.of(context).copyWith(
-                              thumbShape:
-                                  const RoundSliderThumbShape(enabledThumbRadius: 15),
-                              overlayShape:
-                                  const RoundSliderOverlayShape(overlayRadius: 30),
+                              thumbShape: const RoundSliderThumbShape(
+                                  enabledThumbRadius: 15),
+                              overlayShape: const RoundSliderOverlayShape(
+                                  overlayRadius: 30),
                               thumbColor: const Color(0xFFEB1555),
                               overlayColor: const Color(0x29EB1555),
                               activeTrackColor: Colors.white,
@@ -137,7 +137,7 @@ class _InputPageState extends State<InputPage> {
                                   icon: FontAwesomeIcons.minus,
                                   onTap: () {
                                     setState(() {
-                                      weight--; 
+                                      weight--;
                                     });
                                   },
                                 ),
@@ -174,7 +174,7 @@ class _InputPageState extends State<InputPage> {
                             icon: FontAwesomeIcons.minus,
                             onTap: () {
                               setState(() {
-                                 age--;
+                                age--;
                               });
                             },
                           ),
