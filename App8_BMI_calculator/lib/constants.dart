@@ -12,4 +12,4 @@ const kBodyTextStyle = TextStyle(fontSize: 22);
 const kActiveCardColor = Color(0xFF1D1E33);
 const kInactiveCardColor = Color(0xFF111328);
 const kBottomMenuColor = Colors.red;
-const kBottomMenuHeight = 80.0;
+const kBottomMenuHeight = 70.0;
