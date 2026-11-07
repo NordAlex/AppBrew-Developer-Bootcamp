@@ -1,6 +1,9 @@
-# AppBrew-Developer-Bootcamp
+# Flutter App Development Bootcamp
 
+A collection of educational mobile applications built during **The App Brewery's Flutter Development Bootcamp**.
 
- 
-[2. Business Card App ](https://github.com/NordAlex/AppBrew-Developer-Bootcamp/tree/master/App2_BusinessCard)  
-![Screenshot](/App2_BusinessCard/business_card.png?raw=true)
+## Tech Stack
+- Dart & Flutter
+- Material Design
+- REST API Integration
+- Mobile UI Development
